@@ -3,5 +3,8 @@ ignore = D203,
          E501,
          
          # module level import not at top of file
-         E402
+         E402,
+
+        # redefinition of unused
+         F811
 exclude = .git,__pycache__,docs/source/conf.py,old,build,dist
